@@ -38,7 +38,7 @@ struct ContentView: View {
                     .background(Color.black.opacity(0.05))
                     .cornerRadius(12)
                     .padding()
-                    .focused($isKeyboardshowing)
+                  
 
      
                 
@@ -49,20 +49,11 @@ struct ContentView: View {
                     .background(Color.black.opacity(0.05))
                     .cornerRadius(12)
                     .padding()
-                    .focused($isKeyboardshowing)
-                
-                
-                    .onTapGesture {
-                        isKeyboardshowing.toggle()
-                    }
-                    .padding(.bottom,20)
-                    .padding(.top ,10)
-                    
               
                 
-                Toggle(isOn: $ischecked ){
-                    Text("Remeber me ")
-                        .labelsHidden()
+              
+              
+               
                         
                 }
                 
@@ -106,4 +97,4 @@ struct ContentView: View {
         }
     }
     
-}
+
