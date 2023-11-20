@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		4285A65E2AFC5C45008344EE /* Otpvalidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285A65D2AFC5C45008344EE /* Otpvalidation.swift */; };
 		4285A6602AFC6CE5008344EE /* Resetpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285A65F2AFC6CE5008344EE /* Resetpassword.swift */; };
+		429124342B0AF153008BB100 /* updateName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429124332B0AF153008BB100 /* updateName.swift */; };
+		429124362B0AF167008BB100 /* updateEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429124352B0AF167008BB100 /* updateEmail.swift */; };
+		429124382B0AF176008BB100 /* updated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429124372B0AF176008BB100 /* updated.swift */; };
+		4291243A2B0AF197008BB100 /* updatePassW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429124392B0AF197008BB100 /* updatePassW.swift */; };
+		4291243C2B0AF1B0008BB100 /* updatePhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4291243B2B0AF1B0008BB100 /* updatePhone.swift */; };
+		4291243E2B0AF1E7008BB100 /* Confirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4291243D2B0AF1E7008BB100 /* Confirmation.swift */; };
+		429E7C0D2B06CFC6005C9DA8 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E7C0C2B06CFC6005C9DA8 /* user.swift */; };
 		4A7140332AFAE5B100F0FF83 /* userinterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7140322AFAE5B100F0FF83 /* userinterfaceApp.swift */; };
 		4A7140352AFAE5B100F0FF83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7140342AFAE5B100F0FF83 /* ContentView.swift */; };
 		4A7140372AFAE5B200F0FF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7140362AFAE5B200F0FF83 /* Assets.xcassets */; };
@@ -17,12 +24,25 @@
 		4A71403F2AFAE5B200F0FF83 /* userinterface.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A71403D2AFAE5B200F0FF83 /* userinterface.xcdatamodeld */; };
 		4A7140492AFAF5DE00F0FF83 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7140482AFAF5DE00F0FF83 /* Signin.swift */; };
 		4A71404F2AFB0D1800F0FF83 /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */; };
+		4A7C1E182B0430AC00EF2C27 /* Profilview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C1E172B0430AC00EF2C27 /* Profilview.swift */; };
+		4A7C1E1E2B04548C00EF2C27 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C1E1D2B04548C00EF2C27 /* PhotoPicker.swift */; };
 		58300DBC2AFD8DB3007158B9 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58300DBB2AFD8DB3007158B9 /* Profil.swift */; };
+		880373542B04164B0044A29B /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880373532B04164B0044A29B /* Details.swift */; };
+		880373562B0416DE0044A29B /* Editbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880373552B0416DE0044A29B /* Editbtn.swift */; };
+		C408FC212B05AE7F00A7014D /* edit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408FC202B05AE7F00A7014D /* edit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4285A65D2AFC5C45008344EE /* Otpvalidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otpvalidation.swift; sourceTree = "<group>"; };
 		4285A65F2AFC6CE5008344EE /* Resetpassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resetpassword.swift; sourceTree = "<group>"; };
+		429124332B0AF153008BB100 /* updateName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateName.swift; sourceTree = "<group>"; };
+		429124352B0AF167008BB100 /* updateEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateEmail.swift; sourceTree = "<group>"; };
+		429124372B0AF176008BB100 /* updated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updated.swift; sourceTree = "<group>"; };
+		429124392B0AF197008BB100 /* updatePassW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatePassW.swift; sourceTree = "<group>"; };
+		4291243B2B0AF1B0008BB100 /* updatePhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatePhone.swift; sourceTree = "<group>"; };
+		4291243D2B0AF1E7008BB100 /* Confirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmation.swift; sourceTree = "<group>"; };
+		429E7C0C2B06CFC6005C9DA8 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		429E7C112B070C73005C9DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4A71402F2AFAE5B100F0FF83 /* userinterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userinterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7140322AFAE5B100F0FF83 /* userinterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userinterfaceApp.swift; sourceTree = "<group>"; };
 		4A7140342AFAE5B100F0FF83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,7 +52,12 @@
 		4A71403E2AFAE5B200F0FF83 /* userinterface.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = userinterface.xcdatamodel; sourceTree = "<group>"; };
 		4A7140482AFAF5DE00F0FF83 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
 		4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		4A7C1E172B0430AC00EF2C27 /* Profilview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profilview.swift; sourceTree = "<group>"; };
+		4A7C1E1D2B04548C00EF2C27 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 		58300DBB2AFD8DB3007158B9 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
+		880373532B04164B0044A29B /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		880373552B0416DE0044A29B /* Editbtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editbtn.swift; sourceTree = "<group>"; };
+		C408FC202B05AE7F00A7014D /* edit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +71,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		429124322B0AF0D2008BB100 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				4285A65D2AFC5C45008344EE /* Otpvalidation.swift */,
+				4285A65F2AFC6CE5008344EE /* Resetpassword.swift */,
+				4A7140482AFAF5DE00F0FF83 /* Signin.swift */,
+				4A7140342AFAE5B100F0FF83 /* ContentView.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		4291243F2B0AF292008BB100 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				4291243B2B0AF1B0008BB100 /* updatePhone.swift */,
+				429124392B0AF197008BB100 /* updatePassW.swift */,
+				429124332B0AF153008BB100 /* updateName.swift */,
+				429124352B0AF167008BB100 /* updateEmail.swift */,
+				429124372B0AF176008BB100 /* updated.swift */,
+				C408FC202B05AE7F00A7014D /* edit.swift */,
+				880373532B04164B0044A29B /* Details.swift */,
+				4291243D2B0AF1E7008BB100 /* Confirmation.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		429124402B0AF2E4008BB100 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C1E1D2B04548C00EF2C27 /* PhotoPicker.swift */,
+				4A7C1E172B0430AC00EF2C27 /* Profilview.swift */,
+				58300DBB2AFD8DB3007158B9 /* Profil.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		429124412B0AF331008BB100 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		429E7C0B2B06CFA0005C9DA8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				429E7C0C2B06CFC6005C9DA8 /* user.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
 		4A7140262AFAE5B100F0FF83 = {
 			isa = PBXGroup;
 			children = (
@@ -65,17 +141,18 @@
 		4A7140312AFAE5B100F0FF83 /* userinterface */ = {
 			isa = PBXGroup;
 			children = (
+				429124412B0AF331008BB100 /* Service */,
+				429124402B0AF2E4008BB100 /* Home */,
+				4291243F2B0AF292008BB100 /* Edit */,
+				429124322B0AF0D2008BB100 /* auth */,
+				429E7C112B070C73005C9DA8 /* Info.plist */,
+				429E7C0B2B06CFA0005C9DA8 /* Modal */,
 				4A7140322AFAE5B100F0FF83 /* userinterfaceApp.swift */,
-				4A7140342AFAE5B100F0FF83 /* ContentView.swift */,
-				4A7140482AFAF5DE00F0FF83 /* Signin.swift */,
-				4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */,
 				4A7140362AFAE5B200F0FF83 /* Assets.xcassets */,
 				4A71403B2AFAE5B200F0FF83 /* Persistence.swift */,
 				4A71403D2AFAE5B200F0FF83 /* userinterface.xcdatamodeld */,
 				4A7140382AFAE5B200F0FF83 /* Preview Content */,
-				4285A65D2AFC5C45008344EE /* Otpvalidation.swift */,
-				4285A65F2AFC6CE5008344EE /* Resetpassword.swift */,
-				58300DBB2AFD8DB3007158B9 /* Profil.swift */,
+				880373552B0416DE0044A29B /* Editbtn.swift */,
 			);
 			path = userinterface;
 			sourceTree = "<group>";
@@ -83,6 +160,7 @@
 		4A7140382AFAE5B200F0FF83 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */,
 				4A7140392AFAE5B200F0FF83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -104,6 +182,8 @@
 			dependencies = (
 			);
 			name = userinterface;
+			packageProductDependencies = (
+			);
 			productName = userinterface;
 			productReference = 4A71402F2AFAE5B100F0FF83 /* userinterface.app */;
 			productType = "com.apple.product-type.application";
@@ -132,6 +212,8 @@
 				Base,
 			);
 			mainGroup = 4A7140262AFAE5B100F0FF83;
+			packageReferences = (
+			);
 			productRefGroup = 4A7140302AFAE5B100F0FF83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,10 +242,22 @@
 			files = (
 				4285A65E2AFC5C45008344EE /* Otpvalidation.swift in Sources */,
 				4A71403C2AFAE5B200F0FF83 /* Persistence.swift in Sources */,
+				4A7C1E1E2B04548C00EF2C27 /* PhotoPicker.swift in Sources */,
+				4291243E2B0AF1E7008BB100 /* Confirmation.swift in Sources */,
+				429124382B0AF176008BB100 /* updated.swift in Sources */,
+				429E7C0D2B06CFC6005C9DA8 /* user.swift in Sources */,
+				C408FC212B05AE7F00A7014D /* edit.swift in Sources */,
+				4A7C1E182B0430AC00EF2C27 /* Profilview.swift in Sources */,
 				4A7140492AFAF5DE00F0FF83 /* Signin.swift in Sources */,
 				4A7140352AFAE5B100F0FF83 /* ContentView.swift in Sources */,
 				4285A6602AFC6CE5008344EE /* Resetpassword.swift in Sources */,
+				4291243C2B0AF1B0008BB100 /* updatePhone.swift in Sources */,
+				880373562B0416DE0044A29B /* Editbtn.swift in Sources */,
+				429124342B0AF153008BB100 /* updateName.swift in Sources */,
+				4291243A2B0AF197008BB100 /* updatePassW.swift in Sources */,
 				4A71404F2AFB0D1800F0FF83 /* ForgetPassword.swift in Sources */,
+				429124362B0AF167008BB100 /* updateEmail.swift in Sources */,
+				880373542B04164B0044A29B /* Details.swift in Sources */,
 				4A71403F2AFAE5B200F0FF83 /* userinterface.xcdatamodeld in Sources */,
 				58300DBC2AFD8DB3007158B9 /* Profil.swift in Sources */,
 				4A7140332AFAE5B100F0FF83 /* userinterfaceApp.swift in Sources */,
@@ -223,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,13 +389,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"userinterface/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = userinterface/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your app needs access to the camera to capture photos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Your reason for requesting Face ID authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,13 +422,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"userinterface/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = userinterface/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your app needs access to the camera to capture photos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Your reason for requesting Face ID authentication";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
