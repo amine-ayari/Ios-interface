@@ -11,12 +11,21 @@ struct updated: View {
     var body: some View {
         NavigationView {
             ZStack{
+                
                 Image("bgapp")
                     .resizable()
                     .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     .opacity(0.1)
+              
                 
+                HStack{
+                    Image("checked")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 150, height: 250)
+                        .offset(x:10, y:-150)
+                }
                 
                 
                 NavigationLink(destination: Details()) {
@@ -30,6 +39,7 @@ struct updated: View {
                         .padding(.horizontal)
                 }
             }
+            
             
         }.navigationBarBackButtonHidden(true)
     }
