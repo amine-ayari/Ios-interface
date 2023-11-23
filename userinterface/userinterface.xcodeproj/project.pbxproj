@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D788B292B0F1BDC00482EA6 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D788B282B0F1BDC00482EA6 /* login.swift */; };
+		1DFE0A882B0ECF2E003EA995 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE0A872B0ECF2E003EA995 /* ApiManager.swift */; };
+		1DFE0A8A2B0ECFC1003EA995 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE0A892B0ECFC1003EA995 /* SessionManager.swift */; };
+		1DFE0A8C2B0ED054003EA995 /* UserRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE0A8B2B0ED054003EA995 /* UserRegistration.swift */; };
+		1DFE0A8E2B0EDC43003EA995 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFE0A8D2B0EDC43003EA995 /* User.swift */; };
 		4285A65E2AFC5C45008344EE /* Otpvalidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285A65D2AFC5C45008344EE /* Otpvalidation.swift */; };
 		4285A6602AFC6CE5008344EE /* Resetpassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285A65F2AFC6CE5008344EE /* Resetpassword.swift */; };
 		429124342B0AF153008BB100 /* updateName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429124332B0AF153008BB100 /* updateName.swift */; };
@@ -33,6 +38,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D788B282B0F1BDC00482EA6 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		1DFE0A872B0ECF2E003EA995 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiManager.swift; path = userinterface/viewModels/ApiManager.swift; sourceTree = SOURCE_ROOT; };
+		1DFE0A892B0ECFC1003EA995 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = userinterface/viewModels/SessionManager.swift; sourceTree = SOURCE_ROOT; };
+		1DFE0A8B2B0ED054003EA995 /* UserRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistration.swift; sourceTree = "<group>"; };
+		1DFE0A8D2B0EDC43003EA995 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4285A65D2AFC5C45008344EE /* Otpvalidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otpvalidation.swift; sourceTree = "<group>"; };
 		4285A65F2AFC6CE5008344EE /* Resetpassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resetpassword.swift; sourceTree = "<group>"; };
 		429124332B0AF153008BB100 /* updateName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateName.swift; sourceTree = "<group>"; };
@@ -71,11 +81,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DFE0A802B0EC2B1003EA995 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE0A8B2B0ED054003EA995 /* UserRegistration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DFE0A812B0EC2BD003EA995 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE0A8D2B0EDC43003EA995 /* User.swift */,
+				1D788B282B0F1BDC00482EA6 /* login.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		1DFE0A822B0EC2CD003EA995 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		429124322B0AF0D2008BB100 /* auth */ = {
 			isa = PBXGroup;
 			children = (
 				4285A65D2AFC5C45008344EE /* Otpvalidation.swift */,
 				4285A65F2AFC6CE5008344EE /* Resetpassword.swift */,
+				4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */,
 				4A7140482AFAF5DE00F0FF83 /* Signin.swift */,
 				4A7140342AFAE5B100F0FF83 /* ContentView.swift */,
 			);
@@ -110,6 +145,8 @@
 		429124412B0AF331008BB100 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				1DFE0A872B0ECF2E003EA995 /* ApiManager.swift */,
+				1DFE0A892B0ECFC1003EA995 /* SessionManager.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -141,6 +178,9 @@
 		4A7140312AFAE5B100F0FF83 /* userinterface */ = {
 			isa = PBXGroup;
 			children = (
+				1DFE0A822B0EC2CD003EA995 /* Views */,
+				1DFE0A812B0EC2BD003EA995 /* viewModels */,
+				1DFE0A802B0EC2B1003EA995 /* Models */,
 				429124412B0AF331008BB100 /* Service */,
 				429124402B0AF2E4008BB100 /* Home */,
 				4291243F2B0AF292008BB100 /* Edit */,
@@ -160,7 +200,6 @@
 		4A7140382AFAE5B200F0FF83 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4A71404E2AFB0D1800F0FF83 /* ForgetPassword.swift */,
 				4A7140392AFAE5B200F0FF83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -240,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFE0A8E2B0EDC43003EA995 /* User.swift in Sources */,
 				4285A65E2AFC5C45008344EE /* Otpvalidation.swift in Sources */,
 				4A71403C2AFAE5B200F0FF83 /* Persistence.swift in Sources */,
+				1D788B292B0F1BDC00482EA6 /* login.swift in Sources */,
 				4A7C1E1E2B04548C00EF2C27 /* PhotoPicker.swift in Sources */,
 				4291243E2B0AF1E7008BB100 /* Confirmation.swift in Sources */,
 				429124382B0AF176008BB100 /* updated.swift in Sources */,
@@ -251,14 +292,17 @@
 				4A7140492AFAF5DE00F0FF83 /* Signin.swift in Sources */,
 				4A7140352AFAE5B100F0FF83 /* ContentView.swift in Sources */,
 				4285A6602AFC6CE5008344EE /* Resetpassword.swift in Sources */,
+				1DFE0A8C2B0ED054003EA995 /* UserRegistration.swift in Sources */,
 				4291243C2B0AF1B0008BB100 /* updatePhone.swift in Sources */,
 				880373562B0416DE0044A29B /* Editbtn.swift in Sources */,
+				1DFE0A8A2B0ECFC1003EA995 /* SessionManager.swift in Sources */,
 				429124342B0AF153008BB100 /* updateName.swift in Sources */,
 				4291243A2B0AF197008BB100 /* updatePassW.swift in Sources */,
 				4A71404F2AFB0D1800F0FF83 /* ForgetPassword.swift in Sources */,
 				429124362B0AF167008BB100 /* updateEmail.swift in Sources */,
 				880373542B04164B0044A29B /* Details.swift in Sources */,
 				4A71403F2AFAE5B200F0FF83 /* userinterface.xcdatamodeld in Sources */,
+				1DFE0A882B0ECF2E003EA995 /* ApiManager.swift in Sources */,
 				58300DBC2AFD8DB3007158B9 /* Profil.swift in Sources */,
 				4A7140332AFAE5B100F0FF83 /* userinterfaceApp.swift in Sources */,
 			);
